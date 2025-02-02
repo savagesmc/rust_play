@@ -1,9 +1,10 @@
 [package]
-name = "hello_cargo"
+name = "log_trace"
 version = "0.1.0"
-edition = "2025"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 tracing = "0.1"
 tracing-subscriber = "0.3.0"
+rand = "0.8.5"
