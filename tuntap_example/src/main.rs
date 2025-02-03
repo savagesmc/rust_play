@@ -12,7 +12,7 @@ fn main() {
    // Preparing configuration for new interface. We use `Builder` pattern
    // for this.
    let if_config = DefaultDriver::if_config_builder()
-      .name("iface1".to_string())
+      .name("stun0".to_string())
       .build()
       .unwrap();
 
