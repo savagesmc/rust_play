@@ -1,0 +1,14 @@
+[package]
+name = "hello_proto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = "0.13.4"
+tokio = "1.43.0"
+tonic = "0.12.3"
+
+[build-dependencies]
+prost-build = "0.13.4"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
