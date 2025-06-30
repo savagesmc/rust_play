@@ -4,6 +4,11 @@ use std::io::{self};
 use std::os::unix::prelude::*;
 use std::path::PathBuf;
 
+
+
+
+/// Shared Memory Interface
+
 /// Initializes or opens a Unix shared memory object.
 ///
 /// # Arguments
